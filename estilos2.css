@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    background-image: url(https://negro.store/wp-content/uploads/2018/03/fondo-negro-estrellas-escritorio-1024x575.jpg);
+    border: 0;
+} 
+            
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+
+form{
+    width: 450px;
+	 margin:auto; /* Centrado */
+	 background: rgba(18, 69, 209, 0.7); /* 0.7 es la transparencia */
+	 padding: 40px 20px; /* 10 pixeles vertical 20 horizontal */
+	 margin-top: 30px;
+	 border-radius: 20px;
+	 margin-bottom: 30px;
+}
+
+
+
+.boton{
+    color:rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(37, 179, 179);
+}
+
+.imagenes-h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000746;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+#enviar{
+	background: linear-gradient(to right, #0f0470, #0e0c0c);
+    border-top: rgb(255, 68, 0. 0.9);
+    color: rgb(255, 255, 255);
+    font-family: fantasy;
+    font-size: 30px;
+	cursor: pointer;
+	padding: 15px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+
+h1:hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px #d25cf0;
+	-webkit-box-shadow: 0px 0px 15px 15px #d25cf0;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+    
+}
+
+
+
+@media screen and (max-width: 463px){ 
+    .boton{
+        color:rgb(255, 255, 255);
+        padding: 0px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(37, 179, 179);
+    }
+}
+
+
+@media screen and (max-width: 524px){ 
+
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+    }
+    
+    form{
+        width: 70%;
+         margin:auto; /* Centrado */
+         background: rgba(18, 69, 209, 0.7); 
+         margin-top: 30px;
+         border-radius: 20px;
+         margin-bottom: 30px;
+    
+    }
+    
+
+    
+    .boton{
+        color:rgb(255, 255, 255);
+        padding: 5px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 132px;
+        background-color: rgb(37, 179, 179);
+    }
+    
+    .imagenes-h2{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #000746;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    
+    #enviar{
+        background: linear-gradient(to right, #0f0470, #0e0c0c);
+        border-top: rgb(255, 68, 0. 0.9);
+        color: rgb(255, 255, 255);
+        font-family: fantasy;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 5px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+
+
+
+}
